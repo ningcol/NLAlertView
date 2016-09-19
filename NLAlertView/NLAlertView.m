@@ -14,7 +14,7 @@
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 
 #define COMMITBTN_HEIGHT 40
-const static int buttonCount = 3;
+const static int buttonCount = 2;
 
 
 @interface NLAlertView()
