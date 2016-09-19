@@ -15,7 +15,7 @@
 		C5CB66E21D8F814F00C6D04A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5CB66E01D8F814F00C6D04A /* LaunchScreen.storyboard */; };
 		C5CB66ED1D8F814F00C6D04A /* NLAlertViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CB66EC1D8F814F00C6D04A /* NLAlertViewDemoTests.m */; };
 		C5CB66F81D8F814F00C6D04A /* NLAlertViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CB66F71D8F814F00C6D04A /* NLAlertViewDemoUITests.m */; };
-		C5CB67081D8FEFA000C6D04A /* NLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CB67071D8FEFA000C6D04A /* NLAlertView.m */; };
+		C5CB67141D90357200C6D04A /* NLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CB67131D90357200C6D04A /* NLAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		C5CB66F31D8F814F00C6D04A /* NLAlertViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NLAlertViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5CB66F71D8F814F00C6D04A /* NLAlertViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NLAlertViewDemoUITests.m; sourceTree = "<group>"; };
 		C5CB66F91D8F814F00C6D04A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5CB67061D8FEFA000C6D04A /* NLAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLAlertView.h; sourceTree = "<group>"; };
-		C5CB67071D8FEFA000C6D04A /* NLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLAlertView.m; sourceTree = "<group>"; };
+		C5CB67121D90357200C6D04A /* NLAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLAlertView.h; sourceTree = "<group>"; };
+		C5CB67131D90357200C6D04A /* NLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 		C5CB66C61D8F814F00C6D04A = {
 			isa = PBXGroup;
 			children = (
-				C5CB67051D8FEFA000C6D04A /* NLAlertView */,
+				C5CB67111D90357200C6D04A /* NLAlertView */,
 				C5CB66D11D8F814F00C6D04A /* NLAlertViewDemo */,
 				C5CB66EB1D8F814F00C6D04A /* NLAlertViewDemoTests */,
 				C5CB66F61D8F814F00C6D04A /* NLAlertViewDemoUITests */,
@@ -144,13 +144,14 @@
 			path = NLAlertViewDemoUITests;
 			sourceTree = "<group>";
 		};
-		C5CB67051D8FEFA000C6D04A /* NLAlertView */ = {
+		C5CB67111D90357200C6D04A /* NLAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				C5CB67061D8FEFA000C6D04A /* NLAlertView.h */,
-				C5CB67071D8FEFA000C6D04A /* NLAlertView.m */,
+				C5CB67121D90357200C6D04A /* NLAlertView.h */,
+				C5CB67131D90357200C6D04A /* NLAlertView.m */,
 			);
-			path = NLAlertView;
+			name = NLAlertView;
+			path = ../NLAlertView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,8 +288,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5CB66DA1D8F814F00C6D04A /* ViewController.m in Sources */,
+				C5CB67141D90357200C6D04A /* NLAlertView.m in Sources */,
 				C5CB66D71D8F814F00C6D04A /* AppDelegate.m in Sources */,
-				C5CB67081D8FEFA000C6D04A /* NLAlertView.m in Sources */,
 				C5CB66D41D8F814F00C6D04A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -519,6 +520,7 @@
 				C5CB66FE1D8F814F00C6D04A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5CB66FF1D8F814F00C6D04A /* Build configuration list for PBXNativeTarget "NLAlertViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +529,7 @@
 				C5CB67011D8F814F00C6D04A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5CB67021D8F814F00C6D04A /* Build configuration list for PBXNativeTarget "NLAlertViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +538,7 @@
 				C5CB67041D8F814F00C6D04A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
